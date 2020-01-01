@@ -6,7 +6,7 @@
 
 ## Step 2: Install below Plugins from NPM
 
-2. **[Stylelint]**(https://www.npmjs.com/package/stylelint)
+2. **[Stylelint](https://www.npmjs.com/package/stylelint)**
 
 or use directly on CLI: npm i stylelint
 
