@@ -8,7 +8,7 @@
 
 **[Stylelint](https://www.npmjs.com/package/stylelint)** or use directly on CLI: **npm i stylelint**
 
-### Step 3 & 4: Follow the below steps SCSS users:
+### Step 3 & 4: SCSS users follow the below steps:
 
 **[stylelint-scss](https://www.npmjs.com/package/stylelint-scss)** or use directly on CLI: **npm i stylelint-scss**
 
@@ -19,15 +19,15 @@ Add the **[.stylelintrc.json](https://github.com/suyogn/Stylelint-Configuration/
 
 Download the **[.stylelintrc.json](https://github.com/suyogn/Stylelint-Configuration/blob/master/.stylelintrc.json)**
 
-Note: Stylelint has recommended stylelint-config-recommended-scss but needs to install additional plugin as stylelint-order. 
+**Note**: Stylelint has recommended stylelint-config-recommended-scss but needs to install additional plugin as stylelint-order. 
 Hence, we choose stylelint-config-sass-guidelines plugin to avoid additional plugin and both plugin almost similar.
 **_[stylelint-config-recommended-scss]_**https://www.npmjs.com/package/stylelint-config-recommended-scss 
 **_[stylelint-order]_**https://www.npmjs.com/package/stylelint-config-recommended-scss 
 
 
 # Stylelint rule uses and description:
-..* "at-rule-name-case": "lower"
-...It's prevent to use UPPERCASE/Titlecase as like @Media, @Charset, @MEDIA etc.
+⋅⋅* "at-rule-name-case": "lower"
+⋅⋅⋅It's prevent to use UPPERCASE/Titlecase as like @Media, @Charset, @MEDIA etc.
 
 ..* "property-case": "lower"
 ...The patterns are considered violations WIDTH: 1px; Width: 1px; etc.
