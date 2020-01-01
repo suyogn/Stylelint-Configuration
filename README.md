@@ -27,8 +27,7 @@ Hence, we choose stylelint-config-sass-guidelines plugin to avoid additional plu
 
 # Stylelint rule uses and description:
 * "at-rule-name-case": "lower"
-
-It's prevent to use UPPERCASE/Titlecase as like @Media, @Charset, @MEDIA etc.
+> It's prevent to use UPPERCASE/Titlecase as like @Media, @Charset, @MEDIA etc.
 
 * "property-case": "lower"
 
