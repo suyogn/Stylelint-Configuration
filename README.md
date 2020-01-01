@@ -4,7 +4,7 @@
 
 **_stylelint_**
 
-...thibaudcolas.stylelint (It's extension identifier current version 0.51.0)
+thibaudcolas.stylelint (It's extension identifier current version 0.51.0)
 
 ## Step 2: Install below Plugins from NPM
 
