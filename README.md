@@ -1,6 +1,6 @@
 # Stylelint Installation & Configuration
 
-### Step 1: Open the VS Code and search the extension
+### Step 1: Open the VS Code (v1.41.1) and search the extension
 
 **stylelint** (current version 0.51.0, thibaudcolas.stylelint) 
 
