@@ -14,7 +14,7 @@
 
 **[stylelint-config-sass-guidelines](https://www.npmjs.com/package/stylelint-config-sass-guidelines)** or use directly on CLI: npm i stylelint-config-sass-guidelines
 
-## Step 5: After completed above steps open your project in the VS CODE and follow as below:
+### Step 5: After completed above steps open your project in the VS CODE and follow as below:
 Add the **[.stylelintrc.json](https://github.com/suyogn/Stylelint-Configuration/blob/master/.stylelintrc.json)** on the root path in the your project (similar location of package.json)
 
 Download the **[.stylelintrc.json](https://github.com/suyogn/Stylelint-Configuration/blob/master/.stylelintrc.json)**
@@ -26,7 +26,11 @@ Hence, we choose stylelint-config-sass-guidelines plugin to avoid additional plu
 
 
 # Stylelint rule uses and description:
+⋅⋅* Unordered sub-list.
 ⋅⋅* "at-rule-name-case": "lower"
+
+Unordered sub-list.
+
 ⋅⋅⋅It's prevent to use UPPERCASE/Titlecase as like @Media, @Charset, @MEDIA etc.
 
 ..* "property-case": "lower"
