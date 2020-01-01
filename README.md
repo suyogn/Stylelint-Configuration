@@ -27,21 +27,30 @@ Hence, we choose stylelint-config-sass-guidelines plugin to avoid additional plu
 
 # Stylelint rule uses and description:
 * "at-rule-name-case": "lower"
-  -It's prevent to use UPPERCASE/Titlecase as like @Media, @Charset, @MEDIA etc.
 
-..* "property-case": "lower"
-...The patterns are considered violations WIDTH: 1px; Width: 1px; etc.
+It's prevent to use UPPERCASE/Titlecase as like @Media, @Charset, @MEDIA etc.
 
-..* "max-nesting-depth": 3
-...Maximum allowing nesting depth 3
-...a {
-... b { /* 1 */
-...   .foo {} /* 2 */
-... }
-...}
+* "property-case": "lower"
 
-..* "scss/at-extend-no-missing-placeholder": null
-...We can use the placeholder '.' or '%'. Default placeholder is allowed only "%"
+The patterns are considered violations WIDTH: 1px; Width: 1px; etc.
+
+* "max-nesting-depth": 3
+
+  Maximum allowing nesting depth 3
+
+  a {
+
+    b { /* 1 */
+  
+      .foo {} /* 2 */
+    
+    }
+  
+  }
+
+* "scss/at-extend-no-missing-placeholder": null
+
+  We can use the placeholder '.' or '%'. Default placeholder is allowed only "%"
 
 
 
