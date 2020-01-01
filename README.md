@@ -2,14 +2,13 @@
 
 ## Step 1: Open the VS Code and search the extension
 
-**_stylelint_**
-
-thibaudcolas.stylelint (It's extension identifier current version 0.51.0)
+**stylelint** (current version 0.51.0, thibaudcolas.stylelint) 
 
 ## Step 2: Install below Plugins from NPM
 
-2. **_[Stylelint]_**https://www.npmjs.com/package/stylelint
-...You can use directly on CLI: npm i stylelint
+2. **[Stylelint]**(https://www.npmjs.com/package/stylelint)
+
+or use directly on CLI: npm i stylelint
 
 ## If you're working with SCSS then follow the below steps:
 
