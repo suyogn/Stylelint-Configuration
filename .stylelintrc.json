@@ -1,0 +1,28 @@
+{
+  "plugins": ["stylelint-scss"],
+  "extends": "stylelint-config-sass-guidelines",
+  "rules": {
+    "at-rule-name-case": "lower",
+    "property-case": "lower",
+    "max-nesting-depth": 3,
+    "scss/at-extend-no-missing-placeholder": null,
+    "selector-max-compound-selectors": 3,
+    "order/properties-alphabetical-order": null,
+    "block-closing-brace-empty-line-before": "never",
+    "selector-no-qualifying-type": [
+      true,
+      {
+        "ignore": ["attribute", "class"]
+      }
+    ],
+    "max-empty-lines": 1,
+    "function-parentheses-newline-inside": null,
+    "selector-type-no-unknown": [
+      true,
+      {
+        "ignore": ["custom-elements", "default-namespace"]
+      }
+    ]
+    
+  }
+}
