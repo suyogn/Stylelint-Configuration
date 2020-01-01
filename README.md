@@ -2,8 +2,8 @@
 
 ## Step 1: Open the VS Code and search the extension
 
-1. _stylelint_
-...thibaudcolas.stylelint (It's extension identifier current version 0.51.0)
+**_stylelint_**
+thibaudcolas.stylelint (It's extension identifier current version 0.51.0)
 
 ## Step 2: Install below Plugins from NPM
 
