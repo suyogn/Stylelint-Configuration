@@ -1,25 +1,23 @@
 # Stylelint Installation & Configuration
 
-## Step 1: Open the VS Code and search the extension
+### Step 1: Open the VS Code and search the extension
 
 **stylelint** (current version 0.51.0, thibaudcolas.stylelint) 
 
-## Step 2: Install below Plugins from NPM
+### Step 2: Install below Plugins from NPM
 
-2. **[Stylelint](https://www.npmjs.com/package/stylelint)**
+**[Stylelint](https://www.npmjs.com/package/stylelint)** or use directly on CLI: **npm i stylelint**
 
-or use directly on CLI: npm i stylelint
+### Step 3 & 4: Follow the below steps SCSS users:
 
-## If you're working with SCSS then follow the below steps:
+**[stylelint-scss](https://www.npmjs.com/package/stylelint-scss)** or use directly on CLI: **npm i stylelint-scss**
 
-3. **_[stylelint-scss]_**https://www.npmjs.com/package/stylelint-scss
-...You can use directly on CLI: npm i stylelint-scss
+**[stylelint-config-sass-guidelines](https://www.npmjs.com/package/stylelint-config-sass-guidelines)** or use directly on CLI: npm i stylelint-config-sass-guidelines
 
-4. **_[stylelint-config-sass-guidelines]_**https://www.npmjs.com/package/stylelint-config-sass-guidelines
-...You can use directly on CLI: npm i stylelint-config-sass-guidelines
+## Step 5: After completed above steps open your project in the VS CODE and follow as below:
+Add the **[.stylelintrc.json](https://github.com/suyogn/Stylelint-Configuration/blob/master/.stylelintrc.json)** on the root path in the your project (similar location of package.json)
 
-## Once the complete above steps then open your project in the VS CODE and follow as below:
-5. Download the .stylelintrc.json from here and paste in your project on root path (similar location of package.json)
+Download the **[.stylelintrc.json](https://github.com/suyogn/Stylelint-Configuration/blob/master/.stylelintrc.json)**
 
 Note: Stylelint has recommended stylelint-config-recommended-scss but needs to install additional plugin as stylelint-order. 
 Hence, we choose stylelint-config-sass-guidelines plugin to avoid additional plugin and both plugin almost similar.
